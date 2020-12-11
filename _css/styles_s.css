@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+
+.jumbotron {
+    background-image: url("../_images/banner-qs.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    color: white;
+}
+
+.display-3, .lead {
+    font-weight: 400;
+}
+
+.card-deck {
+    margin: 0 20px;
+}
+
+.card-img-top {
+    height: 45vh;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 22px
+}
+
+h4 {
+    font-family: 'Lora', serif;
+    font-size: 40px;
+}
+
+.gmaps {
+    padding: 50px;
+}

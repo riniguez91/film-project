@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap%27');
+.carousel{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#background {
+  /*background-image: url("https://www.mactualidad.com/wp-content/uploads/2013/08/new-york-fondos-pantalla-hd-30.jpg");*/
+  /*background-image: url("https://i.pinimg.com/originals/5c/a5/1a/5ca51ac341f3e118eee2157345061061.jpg");*/
+  background-color: rgb(35, 16, 80);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* H1: Film Genres */
+.genreTitles{
+  background-color: white;
+  padding: 10px 100px;
+  margin: 1% 2% 1% 2%;
+}
+
+/* Navbar */
+.navbar{
+  background-color: #333333;
+}
+.navbar-brand{
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar-brand:hover{
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  font-weight: bolder;
+}
+.nav-link{
+  color: black;
+}
+.nav-link:hover{
+  color: white;
+  font-weight: bolder;
+}
+
+/* Title index*/
+.jumbotron {
+  background-image: url("../_images/banner-qs.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.display-3, .lead {
+  font-weight: 400;
+}
