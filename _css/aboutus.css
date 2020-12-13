@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
 
+.navbar-dark {
+    background-color:#313131;
+}
+  
+.nav-item:hover {
+    font-weight: bold;
+}
+
 .jumbotron {
+    margin-top: 7vh;
     background-image: url("../_images/banner-qs.jpg");
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -13,7 +22,7 @@
 }
 
 .card-deck {
-    margin: 0 20px;
+    margin: 25px 20px;
 }
 
 .card-img-top {
