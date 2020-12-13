@@ -1,8 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap%27');
 .carousel{
-  width: 80%;
+  width: 100%;
   height: auto;
   margin: 0 auto;
+}
+
+.carousel-inner{
+  width:100%;
+  max-height: 700px !important;
+  background-position: bottom; /* Center the image */
+}
+
+.card-text{
+  text-align: justify;
+}
+.card-img-top{
+  max-height: 390px;
 }
 
 #background {
