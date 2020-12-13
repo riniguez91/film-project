@@ -25,7 +25,7 @@
 /* Navbar */
 .navbar{
   background-color: #333333;
-}
+}  
 .navbar-brand{
   color: black;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -37,10 +37,13 @@
 }
 .nav-link{
   color: black;
-}
+} 
 .nav-link:hover{
   color: white;
   font-weight: bolder;
+}
+.custom-toggler .navbar-toggler-icon{
+  color: white;
 }
 
 /* Title index*/
@@ -49,6 +52,7 @@
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
+  margin-top: 5vh;
 }
 
 .display-3, .lead {
