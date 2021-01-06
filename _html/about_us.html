@@ -8,6 +8,9 @@
         <link rel="icon" href="../_images/navbaricon_fp.jpg">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="../_css/aboutus.css">
+        <!-- <script src="../_scripts/scripts.js"></script> -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
     </head>
 
     <body>
@@ -97,16 +100,45 @@
         <div class="card text-center">
             <div class="card-header"></div>
             <div class="card-body">
-              <h4>Check the nearest retailer!</h4>
+              <h4>Check the nearest theaters!</h4>
             </div>
             <div class="card-footer text-muted">
-              Washington DC, USA
+              Hollywood, Los Angeles, California [USA]
             </div>
           </div>
 
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="gmaps embed-responsive-item" src="https://www.google.com/maps/d/embed?mid=1aXVF9LVMpwN4goq5H2dO532hRyw"></iframe>
-        </div>
+
+        <!-- Map -->
+        <div id="mapid"></div>
+        <script>
+    
+          var mymap = L.map('mapid').setView([34.1007085,-118.3352845], 15);
+          L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+              maxZoom: 18,
+              attribution: 'Map of Theaters | Main Home: <a href="../index.html"> Movie Showcaser </a>',
+              id: 'mapbox/streets-v11',
+              tileSize: 512,
+              zoomOffset: -1
+          }).addTo(mymap);
+      
+          L.marker([34.1019421, -118.3305904]).addTo(mymap).bindPopup("Hollywood Pacific Theater");
+          L.marker([34.1000782, -118.3286253]).addTo(mymap).bindPopup("Ivar Theatre");
+          L.marker([34.1013106, -118.3353487]).addTo(mymap).bindPopup("Hologram USA Theatre");
+          L.marker([34.100687,  -118.3364051]).addTo(mymap).bindPopup("Cinelounge Drive-In Hollywood");
+          L.marker([34.1008737, -118.3366991]).addTo(mymap).bindPopup("The Egyptian Theatre Hollywood");
+          L.marker([34.1009014, -118.339924]).addTo(mymap).bindPopup("Teatro El Capitán");
+          L.marker([34.1021342, -118.3403686]).addTo(mymap).bindPopup("TCL Chinese 6 Theatres");
+          L.marker([34.1026424, -118.3405078]).addTo(mymap).bindPopup("Dolby Theatre");
+          var popup = L.popup();
+  
+          //Pop-Up
+          function onMapClick(e) { popup.setLatLng(e.latlng).setContent("You clicked the map at " + e.latlng.toString()).openOn(mymap); }
+          mymap.on('click', onMapClick);      
+      </script>
+        <!-- End Map-->
+        <br><br>
+
+      <!-- Footer -->
 
 
 
