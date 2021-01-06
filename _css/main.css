@@ -134,4 +134,9 @@ li{
   padding-right: 1rem!important;
   padding-top: 0.5rem;
 }
+
 /*END Navbar*/
+
+footer {
+  padding: 15px 0px;
+}
