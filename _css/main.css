@@ -21,14 +21,6 @@
   margin: 1% 2% 1% 2%;
 }
 
-.navbar-dark {
-  background-color:#313131;
-}
-
-.nav-item:hover {
-  font-weight: bold;
-}
-
 .embed-responsive {
   margin-top: 6vh;
   margin-bottom: 3vh;
@@ -128,15 +120,15 @@ font-weight: bold;
   background-color: #313131!important;
 }
 
-li{
+.dropdown{
   padding-bottom: 0.5rem;
   padding-left: 1rem!important;
   padding-right: 1rem!important;
   padding-top: 0.5rem;
-} 
-
+}
 /*END Navbar*/
 
+/*Footer*/
 footer {
   padding: 15px 0px;
 }
@@ -148,3 +140,11 @@ footer {
 .footer-links {
   text-decoration: none;
 }
+
+.list-inline-item{
+  padding-bottom: 0.5rem;
+  padding-left: 1rem!important;
+  padding-right: 1rem!important;
+  padding-top: 0.5rem;
+}
+/*END Footer*/
