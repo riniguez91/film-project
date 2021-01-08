@@ -24,4 +24,4 @@ var mymap = L.map('mapid').setView([34.1007085,-118.3352845], 15);
         function onMapClick(e) {
             popup.setLatLng(e.latlng).setContent("You clicked the map at " + e.latlng.toString()).openOn(mymap);
         }
-        mymap.on('click', onMapClick);
+        mymap.on('click', onMapClick); 
