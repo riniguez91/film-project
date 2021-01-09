@@ -10,11 +10,12 @@
 
 .jumbotron {
     margin-top: 7vh;
-    background-image: url("../_images/banner-qs.jpg");
-    background-position: center; /* Center the image */
+    /* background-image: url("../_images/banner-qs.jpg"); */
+    background-image: url("https://image.freepik.com/vector-gratis/paisaje-invernal-lago-congelado-nubes_107791-1861.jpg");
+    background-position: top; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
-    color: white;
+    color: black;
 }
 
 .display-3, .lead {
