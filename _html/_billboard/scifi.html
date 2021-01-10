@@ -5,58 +5,65 @@
     <title>Movie showcaser - Sci-Fi</title>
     <link rel="icon" href="../../_images/navbaricon_fp.jpg">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../_css/styles_d.css">
+    <link rel="stylesheet" href="../../_css/billboard.css">
+    <link rel="stylesheet" href="../../_css/footer.css">
 </head>
 <body>
     
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-      <a class="navbar-brand" href="#">
-        <img src="../../_images/navbaricon_fp.jpg" width="45" height="40" style="border-radius: 5px">
-      </a>
-      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-        <!--Home-->
-        <div class="navbar-nav">
-          <a class="nav-item nav-link px-3 active" href="../../index.html">
-            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house" fill="currentColor">
-              <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
-              <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
-            </svg> Home
-          </a>
-          <!--Billboard-->
-          <li class="dropdown">
-            <a href="#" data-toggle="dropdown" class="dropdown-toggle"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-info-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
-              <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
-              <path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588z"/>
-              <circle cx="8" cy="4.5" r="1"/>
-            </svg> Billboard</a>
-            <ul class="dropdown-menu">
-                <li class="dropdown"><a href="action.html" class="drop">Action </a></li>
-                <li class="dropdown"><a href="adventure.html" class="drop">Adventure </a></li>
-                <li class="dropdown"><a href="comedy.html" class="drop">Comedy </a></li>
-                <li class="dropdown"><a href="scifi.html" class="drop">Science Fiction </a></li>
-            </ul>
-          </li>
-          <!--About Us-->
-          <a class="nav-item nav-link px-3 active" href="../about_us.html">
-            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-left-text" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v11.586l2-2A2 2 0 0 1 4.414 11H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
-              <path fill-rule="evenodd" d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
-            </svg> About us
-          </a>
-          <!--Login-->
-          <a class="nav-item nav-link px-3 active" href="../subscribe.html">
-            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" d="M10 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm6 5c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
-            </svg> Login
-          </a>
-        </div>
+   <!-- NAVBAR -->
+   <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <a class="navbar-brand" href="#">
+      <img src="../../_images/navbaricon_fp.jpg" width="45" height="40" style="border-radius: 5px">
+    </a>
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+      <!--Home-->
+      <div class="navbar-nav">
+        <a class="nav-item nav-link px-3 active" href="../../index.html">
+          <!-- <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house" fill="currentColor">
+            <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+            <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+          </svg> --> 
+          <img src="https://www.flaticon.es/svg/static/icons/svg/1692/1692828.svg" height="18"> Home
+        </a>
+        <!--Billboard-->
+        <li class="dropdown">
+          <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+            <!-- <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-info-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+            <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+            <path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588z"/>
+            <circle cx="8" cy="4.5" r="1"/>
+            </svg> -->
+            <img src="https://www.flaticon.com/svg/static/icons/svg/2433/2433310.svg" height="23"> Billboard <!-- https://www.flaticon.com/svg/static/icons/svg/3989/3989664.svg -->
+         </a>
+          <ul class="dropdown-menu">
+              <li class="dropdown"><a href="./action.html" class="drop">Action </a></li>
+              <li class="dropdown"><a href="./adventure.html" class="drop">Adventure </a></li>
+              <li class="dropdown"><a href="./comedy.html" class="drop">Comedy </a></li>
+              <li class="dropdown"><a href="./scifi.html" class="drop">Science Fiction </a></li>
+          </ul>
+        </li>
+        <!--About Us-->
+        <a class="nav-item nav-link px-3 active" href="../../_html/about_us.html">
+          <!-- <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-left-text" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v11.586l2-2A2 2 0 0 1 4.414 11H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+            <path fill-rule="evenodd" d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+          </svg> --> 
+          <img src="https://www.flaticon.com/svg/static/icons/svg/788/788927.svg" height="20"> About us
+        </a>
+        <!--Login-->
+        <a class="nav-item nav-link px-3 active" href="../../_html/subscribe.html">
+          <!-- <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M10 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm6 5c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+          </svg> --> 
+          <img src="https://www.flaticon.com/svg/static/icons/svg/1092/1092848.svg" height="19"> Login
+        </a>
       </div>
-    </nav>
+    </div>
+  </nav>
 
     <!-- CAROUSEL -->
     <!-- Science Fiction -->
@@ -89,12 +96,12 @@
 
     <!-- CONTAINER -->
     <div class="container marketing">
-
+        <!--
         <br>
         <h1>BEST SCIENCE FICTION ACTORS</h1>
         <hr class="featurette-divider">
 
-        <!-- TOP ACTORS -->
+         TOP ACTORS 
         <div class="card-deck">
             <div class="card">
               <img class="card-img-top" src="https://cdn2.estamosrodando.com/biografias/16/7/harrison-ford-173751.jpg" alt="Harrison Ford">
@@ -126,31 +133,31 @@
                 <footer class="blockquote-footer text-right">Someone famous in <cite title="Source Title">IMDB</cite></footer>
               </div>
             </div>
-        </div>
+        </div> -->
 
         <br><br>  
-        <h1>SCIENCE FICTION</h1>
+        <h1 class="display-4 fp-heading text-center">In science fiction, we dream!</h1>
         <hr class="featurette-divider">
         <!--1-->
         <div class="row featurette">
           <div class="col-md-7">
             <h2 class="featurette-heading">Star Wars: Episode VIII - The Last Jedi <span class="text-muted"> 2017.</span></h2>
-            <p class="lead">Rey develops her newly discovered abilities with the guidance of Luke Skywalker, who is unsettled by the strength of her powers. Meanwhile, the Resistance prepares for battle with the First Order.</p>
+            <p class="lead">The evil First Order has become even more powerful than when we left it in 'The Force Awakens', and is closing in on the Resistance led by General Leia Organa (Carrie Fisher). Pilot Poe Dameron (Oscar Isaac) leads a mission to take out a First Order Dreadnought. Meanwhile, Rey (Daisy Ridley) must ponder her own future and vocation, and Luke (Mark Hamill) has to reassess what his life means.</p>
           </div>
           <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" src="../../_images/starwars_fp.jpg" alt="Star Wars image">
+            <img class="featurette-image img-fluid mx-auto" src="https://images-na.ssl-images-amazon.com/images/I/A1UKXyjirGL._AC_SL1500_.jpg" alt="Star Wars image">
           </div>
         </div>
         
         <hr class="featurette-divider">
         <!--2-->
         <div class="row featurette">
-          <div class="col-md-7 order-md-2">
+          <div class="col-md-7 order-md-2 left-img-featurette">
             <h2 class="featurette-heading">Harry Potter and the Sorcerer's Stone <span class="text-muted"> 2001.</span></h2>
-            <p class="lead">An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.</p>
+            <p class="lead">Harry Potter has learned to live with his bullying Uncle Vernon, Aunt and spoiled cousin. On his 11th birthday, Harry learns that he is the orphaned son of two powerful wizards and possesses unique magical powers of his own. Invited to attend Hogwarts School of Witchcraft and Wizardry, Harry embarks on the adventure of a lifetime. At Hogwarts, he finds the home and family he has never had.</p>
           </div>
           <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto" src="../../_images/harrypotter_fp.jpg" alt="Harry Potter image">
+            <img class="featurette-image img-fluid mx-auto" src="https://images-na.ssl-images-amazon.com/images/I/713KEd-8jyL._AC_SL1500_.jpg" alt="Harry Potter image">
           </div>
         </div>
   
@@ -159,22 +166,22 @@
         <div class="row featurette">
           <div class="col-md-7">
             <h2 class="featurette-heading">Avatar <span class="text-muted"> 2009.</span></h2>
-            <p class="lead">A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.</p>
+            <p class="lead">Year 2154. On a distant moon Pandora, a reluctant hero embarks on a journey of redemption and discovery, as he leads a heroic battle to save a civilization. AVATAR takes us to a spectacular new world beyond our imagination. Jake Sully (Sam Worthington) is a former Marine confined to a wheelchair. But despite his broken body, Jake is still a warrior at heart. He is recruited to travel light years to the human outpost on Pandora, where a corporate consortium is mining a rare mineral that is the key to solving Earth's energy crisis. Because Pandora's atmosphere is toxic, they have created the Avatar Program, in which human "drivers" have their consciousness linked to an avatar, a remotely-controlled biological body that can survive in the lethal air. These avatars are genetically engineered hybrids of human DNA mixed with DNA from the natives of Pandora... the Na'vi. Reborn in his avatar form, Jake can walk again.</p>
           </div>
           <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" src="../../_images/avatar_fp.jpg" alt="Avatar image">
+            <img class="featurette-image img-fluid mx-auto" src="https://images-na.ssl-images-amazon.com/images/I/61jFTTf9RBL._AC_SL1230_.jpg" alt="Avatar image">
           </div>
         </div>
 
         <hr class="featurette-divider">
         <!--4-->
         <div class="row featurette">
-          <div class="col-md-7 order-md-2">
+          <div class="col-md-7 order-md-2 left-img-featurette">
             <h2 class="featurette-heading">Ready Player One <span class="text-muted"> 2018.</span></h2>
             <p class="lead">When the creator of a virtual reality called the OASIS dies, he makes a posthumous challenge to all OASIS users to find his Easter Egg, which will give the finder his fortune and control of his world.</p>
           </div>
           <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto" src="https://i0.wp.com/kalot.com.mx/site/wp-content/uploads/2018/04/Ready-Player-One-1.jpg?fit=1920%2C1080&ssl=1" alt="Ready Player One image">
+            <img class="featurette-image img-fluid mx-auto" src="https://images-na.ssl-images-amazon.com/images/I/81SSoQgfaqL._AC_SL1474_.jpg" alt="Ready Player One image">
           </div>
         </div>
 
@@ -183,22 +190,22 @@
         <div class="row featurette">
           <div class="col-md-7">
             <h2 class="featurette-heading">Fantastic Beasts: The Crimes of Frindelwald <span class="text-muted"> 2018.</span></h2>
-            <p class="lead">The second installment of the "Fantastic Beasts" series featuring the adventures of Magizoologist Newt Scamander.</p>
+            <p class="lead">Seventy years before Harry Potter reads writer Newt Scamander's (Eddie Redmayne) book in school, the author enjoys adventures in New York's secret community of witches and wizards. The spinoff film takes place in 1926, as Newt travels the globe to find and document magical creatures. But after completing a global excursion and arriving in New York for a brief stopover, his misplaced magical case leads to the escape of some of Newt's fantastic beasts in the No-Maj (American equivalent of "Muggle") world.</p>
           </div>
           <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" src="https://images6.alphacoders.com/960/thumb-1920-960282.jpg" alt="Fantastic Beasts: The Crimes of Frindelwald image">
+            <img class="featurette-image img-fluid mx-auto" src="https://i.pinimg.com/originals/11/95/b8/1195b802fe9108f0458830054ba1fd57.jpg" alt="Fantastic Beasts: The Crimes of Frindelwald image">
           </div>
         </div>
 
         <hr class="featurette-divider">
         <!--6-->
         <div class="row featurette">
-          <div class="col-md-7 order-md-2">
+          <div class="col-md-7 order-md-2 left-img-featurette">
             <h2 class="featurette-heading">The Hunger Games: Catching Fire <span class="text-muted"> 2013.</span></h2>
-            <p class="lead">Katniss Everdeen and Peeta Mellark become targets of the Capitol after their victory in the 74th Hunger Games sparks a rebellion in the Districts of Panem.</p>
+            <p class="lead">Katniss Everdeen has returned home safe after winning the 74th Annual Hunger Games along with fellow tribute Peeta Mellark. Winning means that they must turn around and leave their family and close friends, embarking on a "Victor's Tour" of the districts. Along the way Katniss senses that a rebellion is simmering, but the Capitol is still very much in control as President Snow prepares the 75th Annual Hunger Games (The Quarter Quell) - a competition that could change Panem forever.</p>
           </div>
           <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto" src="https://www.bhmpics.com/download/the_hunger_games_catching_fire_movie_2-1920x1080.jpg" alt="The Hunger Games: Catching Fire image">
+            <img class="featurette-image img-fluid mx-auto" src="https://m.media-amazon.com/images/M/MV5BMjA4NDg3NzYxMF5BMl5BanBnXkFtZTcwNTgyNzkyNw@@._V1_.jpg" alt="The Hunger Games: Catching Fire image">
           </div>
         </div>
   
@@ -207,22 +214,22 @@
         <div class="row featurette">
           <div class="col-md-7">
             <h2 class="featurette-heading">Wonder Woman <span class="text-muted"> 2017.</span></h2>
-            <p class="lead">When a pilot crashes and tells of conflict in the outside world, Diana, an Amazonian warrior in training, leaves home to fight a war, discovering her full powers and true destiny.</p>
+            <p class="lead">The Amazonian princess-warrior Diana left her lush tropical island to dwell in our urban cityscapes of glass and steel. Tutored in the ways of the Greek warriors, and outfitted with incredible gifts the Goddess bestowed upon her people, she becomes Paradise Island's emissary to civilization.</p>
           </div>
           <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" src="https://wallpapercave.com/wp/wp2124486.jpg" alt="Wonder Woman image">
+            <img class="featurette-image img-fluid mx-auto" src="https://cdn11.bigcommerce.com/s-ydriczk/images/stencil/original/products/88197/90726/Wonder-Woman-Advance-Style-B-Wonder-Poster-buy-original-movie-posters-at-starstills__91230.1494347007.jpg?c=2" alt="Wonder Woman image">
           </div>
         </div>
 
         <hr class="featurette-divider">
         <!--8-->
         <div class="row featurette">
-          <div class="col-md-7 order-md-2">
+          <div class="col-md-7 order-md-2 left-img-featurette">
             <h2 class="featurette-heading">Wonder Woman: 1984 <span class="text-muted"> 2020.</span></h2>
-            <p class="lead">Rewind to the 1980s as Wonder Woman's next big screen adventure finds her facing two all-new foes: Max Lord and The Cheetah.</p>
+            <p class="lead">In 1984, during the Cold War, Diana comes into conflict with two formidable foes—media businessman Maxwell Lord and friend-turned-enemy Barbara Minerva / Cheetah—while reuniting with her love interest Steve Trevor. A sequel to the 2017 super hero film 'Wonder Woman'.</p>
           </div>
           <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto" src="https://www.diariovivo.com/wp-content/uploads/2019/06/wonder-woman-1984.jpeg" alt="Wonder Woman: 1984 image">
+            <img class="featurette-image img-fluid mx-auto" src="https://sm.ign.com/ign_es/screenshot/default/wonder-woman-1984-poster-700x1050_yub8.jpg" alt="Wonder Woman: 1984 image">
           </div>
         </div>
   
@@ -234,19 +241,19 @@
             <p class="lead">Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races.</p>
           </div>
           <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" src="https://www.wallpapertip.com/wmimgs/43-433316_captain-marvel-2019-wallpaper-with-high-resolution-hd.jpg" alt="Captain Marvel image">
+            <img class="featurette-image img-fluid mx-auto" src="https://m.media-amazon.com/images/M/MV5BMTE0YWFmOTMtYTU2ZS00ZTIxLWE3OTEtYTNiYzBkZjViZThiXkEyXkFqcGdeQXVyODMzMzQ4OTI@._V1_.jpg" alt="Captain Marvel image">
           </div>
         </div>
 
         <hr class="featurette-divider">
         <!--10-->
         <div class="row featurette">
-          <div class="col-md-7 order-md-2">
+          <div class="col-md-7 order-md-2 left-img-featurette">
             <h2 class="featurette-heading">Rogue One: A Star Wars Story <span class="text-muted"> 2016.</span></h2>
-            <p class="lead">The daughter of an Imperial scientist joins the Rebel Alliance in a risky move to steal the plans for the Death Star.</p>
+            <p class="lead">Jyn Erso, a Rebellion soldier and criminal, is about to experience her biggest challenge yet when Mon Mothma sets her out on a mission to steal the plans for the Death Star. With the aid of the Rebels, a master swordsman, and non-allied forces, Jyn will be in for something bigger than she thinks.</p>
           </div>
           <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto" src="https://s2.best-wallpaper.net/wallpaper/1920x1080/1708/Rogue-One-A-Star-Wars-Story_1920x1080.jpg" alt="Rogue One image">
+            <img class="featurette-image img-fluid mx-auto" src="https://images-na.ssl-images-amazon.com/images/I/71ktdo2ie6L._AC_SL1200_.jpg" alt="Rogue One image">
           </div>
         </div>
   
@@ -255,7 +262,63 @@
 
     </div>
 
-    <br><br>
+    <!-- Footer -->
+    <footer class="bg-dark text-center">
+      <div class="footer-links">
+        <div> 
+          <ul class="list-inline footer-social-networks">
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/"><img src="../../_images/_icons/instagram.svg" height="30" width="30" alt="Instagram"></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.twitter.com/"><img src="../../_images/_icons/twitter.svg" height="30" width="30" alt="Twitter"></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.youtube.com/"><img src="../../_images/_icons/youtube.svg" height="30" width="30" alt="Youtube"></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/"><img src="../../_images/_icons/facebook.svg" height="30" width="30" alt="Facebook"></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.google.com/"><img src="../../_images/_icons/google-mas.svg" height="30" width="30" alt="Google+"></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.reddit.com/"><img src="../../_images/_icons/reddit.svg" height="30" width="30" alt="Reddit"></a>
+            </li> 
+          </ul>
+        </div>
+
+        <!-- Footer -->
+        <div> <!-- PLACE FOOTER LINKS HERE -->
+          <ul class="list-inline footer-links">
+            <li class="list-inline-item">
+              <a href="#" class="text-white">Terms of use</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="text-white">Privacy policy</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="text-white">Work with us</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="text-white">Media</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <address class="text-white">
+            <strong>Movie Showcase Inc.</strong><br>
+            Calle Tajo, s/n, 28670<br>
+            <img src="../../_images/_icons/location-pin.svg" height="16" alt="Location icon">  Villaviciosa de Odón, Madrid<br>
+            <img src="../../_images/_icons/phone.svg" height="15" alt="Phone icon">  +34 674 231 583<br>
+            <a href="mailto:#" style="text-decoration: none;" class="text-success">movieshowcase@gmail.com</a>
+          </address>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <span class="text-light footer-copyright">© 2019-2020 by Movie Showcaser</span>
+      </div>
+    </footer>
 
     <script src="js/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

@@ -114,13 +114,6 @@ font-weight: bold;
   padding-left: 35px;
 }
 
-/* .featurette-image {
-  height: 500;
-  width: 500;
-  position: relative;
-}  */
-
-
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
@@ -161,4 +154,13 @@ font-weight: bold;
 
 .display-3, .lead {
   font-weight: 400;
+}
+
+/* P: Text from films*/
+.lead{
+  text-align: justify;
+}
+
+.featurette-image{
+  height:600px;
 }
