@@ -167,13 +167,13 @@ body {
 .form-signin input[type="email"] {
   margin: 25px 0px;
 
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
+  border-radius: 5px;
+  
 }
 .form-signin input[type="password"] {
   margin-bottom: 10px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+  border-radius: 5px;
+  
 }
 
 /* Position Remember me */
