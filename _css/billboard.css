@@ -84,7 +84,7 @@ font-weight: bold;
 }   
 /*END Navbar*/
 
-/* Declare heights because of positioning of img element */
+/* Set carousel as a background img */
 .carousel-item {
   height: 59rem;
 }
@@ -96,14 +96,13 @@ font-weight: bold;
   height: 59rem;
 }
 
-/* Featurettes
-------------------------- */
+/* Featurettes */
 
+/* Separate elements from the horizontal line */
 .featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 5rem 0; 
 }
 
-/* Thin out the marketing headings */
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
@@ -113,9 +112,6 @@ font-weight: bold;
 .left-img-featurette {
   padding-left: 35px;
 }
-
-/* RESPONSIVE CSS
--------------------------------------------------- */
 
 @media (min-width: 40em) {
   .featurette-heading {
@@ -157,10 +153,10 @@ font-weight: bold;
 }
 
 /* P: Text from films*/
-.lead{
+.lead {
   text-align: justify;
 }
 
-.featurette-image{
+.featurette-image {
   height:600px;
 }
