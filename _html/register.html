@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="icon" href="../_images/navbaricon_fp.jpg">
-		<title>Movie showcaser - Login</title>
+		<title>Movie showcaser - Register</title>
 		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
 		<link rel="stylesheet" href="../_css/login.css">
 </head>
@@ -68,19 +68,24 @@
 
 		<form class="form-signin">
 			<img class="icon" src="../_images/navbaricon_fp.jpg" alt="Logo Movie Showcase" >
-			<h1 class="h3 mb-3 font-weight-normal">Movie Showcase Inc.</h1>
-			<label for="inputEmail" class="sr-only">E-mail address </label>
-			<input type="email" id="inputEmail" class="form-control" placeholder="E-mail address" required autofocus>
-			<label for="inputPassword" class="sr-only">Password</label>
-			<input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-			<div class="checkbox mb-3 justify-content-start">
-				<label class="remember">
-					<input type="checkbox" value="remember-me"> Remember me
-				</label>
-			</div>
-      <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-      <a href="./register.html">Don't have an account?</a>
-      <!-- <button class="btn btn-lg btn-block" type="submit">Register</button>-->
+            <h1 class="h3 mb-3 font-weight-normal">Movie Showcase Inc.</h1>
+
+            <label for="inputNameR" class="sr-only">Name</label>
+            <input type="text" id="inputNameR" class="form-control" placeholder="Name" required autofocus>
+
+            <label for="inputSurnamesR" class="sr-only">Surnames </label>
+            <input type="text" id="inputSurnamesR" class="form-control" placeholder="Surnames" required>
+
+			<label for="inputEmailR" class="sr-only">E-mail address </label>
+			<input type="email" id="inputEmailR" class="form-control" placeholder="E-mail address" required>
+            
+            <label for="inputPasswordR" class="sr-only">Password</label>
+			<input type="password" id="inputPasswordR" class="form-control" placeholder="Password" required>
+            
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+            <div id="back">
+                <a href="./subscribe.html">Back</a>
+            </div>
 			<p class="mt-5 mb-3 text-muted">&copy; 2019-2020 by Movie Showcaser</p>
 		</form>
 	

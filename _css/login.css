@@ -194,3 +194,26 @@ body {
 .form-signin{
   opacity: 0.8;
 }
+
+/*Register*/
+#inputNameR.form-control{
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+#inputSurnamesR.form-control{
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+#inputEmailR.form-control{
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+#inputPasswordR.form-control{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#back{
+  margin-top: 6px;
+
+}
