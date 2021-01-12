@@ -14,7 +14,8 @@
         <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
     </head>
 
-    <body>  
+    <body>
+      <!-- NAVBAR -->
       <?php
       if (session_status() == 0) {
         session_start();

@@ -1,0 +1,25 @@
+CREATE TABLE IF NOT EXISTS `movies` (
+  `movie_id` MEDIUMINT NOT NULL UNIQUE AUTO_INCREMENT,
+  `name` varchar(150) NOT NULL UNIQUE,
+  `plot` varchar(5000) NOT NULL,
+  `release_year` SMALLINT NOT NULL,
+  `img_url` varchar(500) NOT NULL,
+  `favourite` BOOLEAN,
+  `type` VARCHAR(50), 
+  PRIMARY KEY (`movie_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+
+CREATE TABLE IF NOT EXISTS `users` (
+  `user_id` MEDIUMINT NOT NULL UNIQUE AUTO_INCREMENT,
+  `email` varchar(150) NOT NULL UNIQUE,
+  `password` varchar(50) NOT NULL,
+  `name` varchar(50) NOT NULL,
+  `surnames` varchar(150) NOT NULL,
+  PRIMARY KEY (`user_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+INSERT INTO `users`(`email`, `password`, `name`, `surnames`) 
+VALUES ("victor00hs@gmail.com",MD5("1"),"Victor","Hernández Sanz")
