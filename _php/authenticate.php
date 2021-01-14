@@ -25,7 +25,7 @@ if ($stmt = $con->prepare('SELECT user_id, password, name FROM users WHERE email
             // Verification success! User has logged-in!
             // Create sessions, so we know the user is logged in, they basically act like cookies but remember the data on the server.
             session_regenerate_id();
-            $_SESSION['loggedin'] = TRUE;
+            $_SESSION['loggedin'] = true;
             $_SESSION['name'] = $name; // $_POST['username']
             $_SESSION['id'] = $user_id;
             header('Location: home.php');

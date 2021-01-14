@@ -297,7 +297,7 @@
               </div>
               <div class="carousel-item col-md-3">
                 <div class="card">
-                  <img class="card-img-top img-fluid" src="https://static.wikia.nocookie.net/doblaje/images/e/ec/Clint_Eastwood.jpg/revision/latest?cb=20200423142414&path-prefix=es" alt="Clint Eastwood">
+                  <img class="card-img-top img-fluid" src="https://i.pinimg.com/originals/ba/cb/10/bacb1048afacd7ebc9650bb8a3a66328.jpg" alt="Clint Eastwood">
                   <div class="card-body">
                     <h4 class="card-title">Clint Eastwood</h4>
                     <p class="card-text">Clinton «Clint» Eastwood Jr. (San Francisco, California; 31 de mayo de 1930) es un actor, director, productor, músico y compositor estadounidense.</p>

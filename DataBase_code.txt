@@ -5,7 +5,8 @@ CREATE TABLE IF NOT EXISTS `movies` (
   `release_year` SMALLINT NOT NULL,
   `img_url` varchar(500) NOT NULL,
   `favourite` BOOLEAN,
-  `type` VARCHAR(50), 
+  `type` VARCHAR(50),
+  `heart_id` VARCHAR(50) NOT NULL, 
   PRIMARY KEY (`movie_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
@@ -19,6 +20,16 @@ CREATE TABLE IF NOT EXISTS `users` (
   `surnames` varchar(150) NOT NULL,
   PRIMARY KEY (`user_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS user_movies (
+    user_fk_id MEDIUMINT NOT NULL,
+    movie_fk_id MEDIUMINT NOT NULL,
+    INDEX user_fk_idx (user_fk_id),
+    INDEX movie_fk_idx (movie_fk_id),
+    CONSTRAINT user_fk FOREIGN KEY(user_fk_id) REFERENCES users(user_id),
+    CONSTRAINT movie_fk FOREIGN KEY(movie_fk_id) REFERENCES movies(movie_id),
+    CONSTRAINT user_movies_pk UNIQUE(user_fk_id, movie_fk_id)
+) ENGINE=INNODB DEFAULT CHARSET =utf8;
 
 
 INSERT INTO `users`(`email`, `password`, `name`, `surnames`) 
