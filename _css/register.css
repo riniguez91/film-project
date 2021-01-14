@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
-
+  
 /*Register button*/
 input[type=submit] {
   background-color:#aa2727;
@@ -9,6 +9,7 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
 }
+  
 
 input[type=submit]:hover {
   background-color: #aa2727;
@@ -153,15 +154,17 @@ body {
   z-index: 2;
 }
 .form-signin input[type="email"] {
-  margin: 25px 0px;
-
-  border-radius: 5px;
-  
-}
-.form-signin input[type="password"] {
+  margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 5px;
-  
+}
+.form-signin input[type="password"] {
+  margin-top: 15px;
+  border-radius: 5px;
+}
+.form-signin input[type="text"] {
+  margin-top: 15px;
+  border-radius: 5px;
 }
 
 /* Position Remember me */
@@ -182,25 +185,7 @@ body {
 .form-signin{
   opacity: 0.8;
 }
-
-/*Register*/
-#name.form-control{
-  margin-top: 20px;
-  margin-bottom: 0px;
-}
-#surnames.form-control{
-  margin-top: 20px;
-  margin-bottom: 0px;
-}
-#email.form-control{
-  margin-top: 20px;
-  margin-bottom: 0px;
-}
-#password.form-control{
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
+/*BACK to login*/
 .back{
   margin-top: 6px;
 }

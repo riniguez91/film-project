@@ -22,16 +22,19 @@
         <form class="form-signin" action="../_php/authenticate.php" method="POST">
           <img class="icon" src="../_images/navbaricon_fp.jpg" alt="Logo Movie Showcase" >
           <h1 class="h3 mb-3 font-weight-normal">Movie Showcase Inc.</h1>
+
           <label for="inputEmail" class="sr-only">E-mail address </label>
           <input type="email" name="username" id="inputEmail" class="form-control" placeholder="E-mail address" required autofocus>
+          
           <label for="inputPassword" class="sr-only">Password</label>
           <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Password" required>
           <br>
+          
           <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
           <div class="back">
               <a href="./register.php">Don't have an account?</a>
           </div>
-          <!-- <button class="btn btn-lg btn-block" type="submit">Register</button>-->
+          
           <p class="mt-5 mb-3 text-muted">&copy; 2019-2020 by Movie Showcaser</p>
         </form>
       </section>
