@@ -32,10 +32,9 @@ if (isset($_SESSION['loggedin'])) { ?>
                 </a>
                 <!-- Profile -->
                 <li class="dropdown">
-                    <a href="/film-project/_html/profile.php" data-toggle="dropdown" class="dropdown-toggle">
-                        <img src="/film-project/_images/_icons/nb_profile.svg" height="19"> Profile 
+                    <a href="/film-project/_html/profile.php"  class="dropdown-toggle"> 
+                      <img src="/film-project/_images/_icons/nb_profile.svg" height="19"> Profile 
                     </a>
-                  
                   <ul class="dropdown-menu">
                     <li class="dropdown"><a href="/film-project/_html/mymovies.php" class="drop"> <img src="/film-project/_images/_icons/nb_movies.svg" height="24"> My Movies </a></li>
                     <li class="dropdown"><a href="/film-project/_php/logout.php" class="drop"> <img style="margin-right: 9px;" src="/film-project/_images/_icons/nb_logout.svg" height="16"> Logout </a></li>
