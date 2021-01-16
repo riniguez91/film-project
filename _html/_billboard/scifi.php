@@ -95,6 +95,7 @@
           <div class="col-md-7">
             <h2 class="featurette-heading">Star Wars: Episode VIII - The Last Jedi <span class="text-muted"> 2017.</span></h2>
             <p class="lead">The evil First Order has become even more powerful than when we left it in 'The Force Awakens', and is closing in on the Resistance led by General Leia Organa (Carrie Fisher). Pilot Poe Dameron (Oscar Isaac) leads a mission to take out a First Order Dreadnought. Meanwhile, Rey (Daisy Ridley) must ponder her own future and vocation, and Luke (Mark Hamill) has to reassess what his life means.</p>
+            <div class="heart" id="starwarsviii-heart"></div>
           </div>
           <div class="col-md-5">
             <img class="featurette-image img-fluid mx-auto" src="https://images-na.ssl-images-amazon.com/images/I/A1UKXyjirGL._AC_SL1500_.jpg" alt="Star Wars image">
@@ -107,6 +108,7 @@
           <div class="col-md-7 order-md-2 left-img-featurette">
             <h2 class="featurette-heading">Harry Potter and the Sorcerer's Stone <span class="text-muted"> 2001.</span></h2>
             <p class="lead">Harry Potter has learned to live with his bullying Uncle Vernon, Aunt and spoiled cousin. On his 11th birthday, Harry learns that he is the orphaned son of two powerful wizards and possesses unique magical powers of his own. Invited to attend Hogwarts School of Witchcraft and Wizardry, Harry embarks on the adventure of a lifetime. At Hogwarts, he finds the home and family he has never had.</p>
+            <div class="heart" id="sorcererstoneHP-heart"></div>
           </div>
           <div class="col-md-5 order-md-1">
             <img class="featurette-image img-fluid mx-auto" src="https://images-na.ssl-images-amazon.com/images/I/713KEd-8jyL._AC_SL1500_.jpg" alt="Harry Potter image">
@@ -119,6 +121,7 @@
           <div class="col-md-7">
             <h2 class="featurette-heading">Avatar <span class="text-muted"> 2009.</span></h2>
             <p class="lead">Year 2154. On a distant moon Pandora, a reluctant hero embarks on a journey of redemption and discovery, as he leads a heroic battle to save a civilization. AVATAR takes us to a spectacular new world beyond our imagination. Jake Sully (Sam Worthington) is a former Marine confined to a wheelchair. But despite his broken body, Jake is still a warrior at heart. He is recruited to travel light years to the human outpost on Pandora, where a corporate consortium is mining a rare mineral that is the key to solving Earth's energy crisis. Because Pandora's atmosphere is toxic, they have created the Avatar Program, in which human "drivers" have their consciousness linked to an avatar, a remotely-controlled biological body that can survive in the lethal air. These avatars are genetically engineered hybrids of human DNA mixed with DNA from the natives of Pandora... the Na'vi. Reborn in his avatar form, Jake can walk again.</p>
+            <div class="heart" id="avatar-heart"></div>
           </div>
           <div class="col-md-5">
             <img class="featurette-image img-fluid mx-auto" src="https://images-na.ssl-images-amazon.com/images/I/61jFTTf9RBL._AC_SL1230_.jpg" alt="Avatar image">
@@ -131,6 +134,7 @@
           <div class="col-md-7 order-md-2 left-img-featurette">
             <h2 class="featurette-heading">Ready Player One <span class="text-muted"> 2018.</span></h2>
             <p class="lead">When the creator of a virtual reality called the OASIS dies, he makes a posthumous challenge to all OASIS users to find his Easter Egg, which will give the finder his fortune and control of his world.</p>
+            <div class="heart" id="readyplayerone-heart"></div>
           </div>
           <div class="col-md-5 order-md-1">
             <img class="featurette-image img-fluid mx-auto" src="https://images-na.ssl-images-amazon.com/images/I/81SSoQgfaqL._AC_SL1474_.jpg" alt="Ready Player One image">
@@ -143,6 +147,7 @@
           <div class="col-md-7">
             <h2 class="featurette-heading">Fantastic Beasts: The Crimes of Frindelwald <span class="text-muted"> 2018.</span></h2>
             <p class="lead">Seventy years before Harry Potter reads writer Newt Scamander's (Eddie Redmayne) book in school, the author enjoys adventures in New York's secret community of witches and wizards. The spinoff film takes place in 1926, as Newt travels the globe to find and document magical creatures. But after completing a global excursion and arriving in New York for a brief stopover, his misplaced magical case leads to the escape of some of Newt's fantastic beasts in the No-Maj (American equivalent of "Muggle") world.</p>
+            <div class="heart" id="fantasticbeastCF-heart"></div>
           </div>
           <div class="col-md-5">
             <img class="featurette-image img-fluid mx-auto" src="https://i.pinimg.com/originals/11/95/b8/1195b802fe9108f0458830054ba1fd57.jpg" alt="Fantastic Beasts: The Crimes of Frindelwald image">
@@ -155,6 +160,7 @@
           <div class="col-md-7 order-md-2 left-img-featurette">
             <h2 class="featurette-heading">The Hunger Games: Catching Fire <span class="text-muted"> 2013.</span></h2>
             <p class="lead">Katniss Everdeen has returned home safe after winning the 74th Annual Hunger Games along with fellow tribute Peeta Mellark. Winning means that they must turn around and leave their family and close friends, embarking on a "Victor's Tour" of the districts. Along the way Katniss senses that a rebellion is simmering, but the Capitol is still very much in control as President Snow prepares the 75th Annual Hunger Games (The Quarter Quell) - a competition that could change Panem forever.</p>
+            <div class="heart" id="catchingfireHG-heart"></div>
           </div>
           <div class="col-md-5 order-md-1">
             <img class="featurette-image img-fluid mx-auto" src="https://m.media-amazon.com/images/M/MV5BMjA4NDg3NzYxMF5BMl5BanBnXkFtZTcwNTgyNzkyNw@@._V1_.jpg" alt="The Hunger Games: Catching Fire image">
@@ -167,6 +173,7 @@
           <div class="col-md-7">
             <h2 class="featurette-heading">Wonder Woman <span class="text-muted"> 2017.</span></h2>
             <p class="lead">The Amazonian princess-warrior Diana left her lush tropical island to dwell in our urban cityscapes of glass and steel. Tutored in the ways of the Greek warriors, and outfitted with incredible gifts the Goddess bestowed upon her people, she becomes Paradise Island's emissary to civilization.</p>
+            <div class="heart" id="wonderwoman-heart"></div>
           </div>
           <div class="col-md-5">
             <img class="featurette-image img-fluid mx-auto" src="https://cdn11.bigcommerce.com/s-ydriczk/images/stencil/original/products/88197/90726/Wonder-Woman-Advance-Style-B-Wonder-Poster-buy-original-movie-posters-at-starstills__91230.1494347007.jpg?c=2" alt="Wonder Woman image">
@@ -179,6 +186,7 @@
           <div class="col-md-7 order-md-2 left-img-featurette">
             <h2 class="featurette-heading">Wonder Woman: 1984 <span class="text-muted"> 2020.</span></h2>
             <p class="lead">In 1984, during the Cold War, Diana comes into conflict with two formidable foes—media businessman Maxwell Lord and friend-turned-enemy Barbara Minerva / Cheetah—while reuniting with her love interest Steve Trevor. A sequel to the 2017 super hero film 'Wonder Woman'.</p>
+            <div class="heart" id="wonderwoman1984-heart"></div>
           </div>
           <div class="col-md-5 order-md-1">
             <img class="featurette-image img-fluid mx-auto" src="https://sm.ign.com/ign_es/screenshot/default/wonder-woman-1984-poster-700x1050_yub8.jpg" alt="Wonder Woman: 1984 image">
@@ -191,6 +199,7 @@
           <div class="col-md-7">
             <h2 class="featurette-heading">Captain Marvel <span class="text-muted"> 2019.</span></h2>
             <p class="lead">Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races.</p>
+            <div class="heart" id="captainmarvel-heart"></div>
           </div>
           <div class="col-md-5">
             <img class="featurette-image img-fluid mx-auto" src="https://m.media-amazon.com/images/M/MV5BMTE0YWFmOTMtYTU2ZS00ZTIxLWE3OTEtYTNiYzBkZjViZThiXkEyXkFqcGdeQXVyODMzMzQ4OTI@._V1_.jpg" alt="Captain Marvel image">
@@ -203,6 +212,7 @@
           <div class="col-md-7 order-md-2 left-img-featurette">
             <h2 class="featurette-heading">Rogue One: A Star Wars Story <span class="text-muted"> 2016.</span></h2>
             <p class="lead">Jyn Erso, a Rebellion soldier and criminal, is about to experience her biggest challenge yet when Mon Mothma sets her out on a mission to steal the plans for the Death Star. With the aid of the Rebels, a master swordsman, and non-allied forces, Jyn will be in for something bigger than she thinks.</p>
+            <div class="heart" id="rogueone-heart"></div>
           </div>
           <div class="col-md-5 order-md-1">
             <img class="featurette-image img-fluid mx-auto" src="https://images-na.ssl-images-amazon.com/images/I/71ktdo2ie6L._AC_SL1200_.jpg" alt="Rogue One image">
@@ -272,7 +282,7 @@
       </div>
     </footer>
 
-    <script src="js/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="../../_scripts/heart-animation.js"></script>
 </body>
