@@ -11,9 +11,6 @@
 <body>
   <!-- NAVBAR -->
   <?php
-  if (session_status() == 0) {
-    session_start();
-  }
   include("../../_php/navbar.php") 
   ?>
 
@@ -76,7 +73,7 @@
             <div class="heart" id="venom-heart"></div>
           </div>
           <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto" src="https://pics.filmaffinity.com/Venom-233440429-large.jpg" alt="Venom image"> 
+            <img class="featurette-image img-fluid mx-auto" src="https://sharkscene.com/wp-content/uploads/2018/10/DbiHufsXcAAIAak-720x900.jpg" alt="Venom image"> 
           </div>
         </div>
   
@@ -245,20 +242,10 @@
         <span class="text-light footer-copyright">© 2019-2020 by Movie Showcaser</span>
       </div>
     </footer>
-
-    <?php 
-    include("../../_php/likedmovies.php");
-    ?>  
-
+    
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js'></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="../../_scripts/heart-animation.js"></script>
-    <script>
-      var data = <?= $jsonData ?>;
-      console.log(data);
-      for (var i = 0; i < data.length; i++) 
-        $('#'+data[i].heart_id).toggleClass("animate");
-    </script> 
+    <script src="../../_scripts/heart-animation.js"></script> 
 </body>
  

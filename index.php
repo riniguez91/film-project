@@ -20,7 +20,7 @@
       if (session_status() == 0) {
         session_start();
       }
-      include("_php/navbar.php") 
+      include("_php/navbar.php"); 
       ?> 
         
         <div class="bd-example">
