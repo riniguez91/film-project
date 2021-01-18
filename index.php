@@ -10,7 +10,7 @@
         <meta name="description" content="The HTML5 Herald">
         <meta name="keywords" content="">
         <meta name="author" content="SitePoint"> -->
-        <link rel="stylesheet" href="_css/main.css">     
+        <link rel="stylesheet" href="_css/main.css">
         <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
     </head>
 
@@ -29,7 +29,10 @@
           </div>
         </div> 
 
-        <h1 class="display-4 fp-heading text-center">Top picks of the month!</h1>
+        <br>
+        <h1 class="display-4 fp-heading text-center" >Top picks of the month!</h1>
+        <hr class="featurette-divider" style="width:1200px;">
+        <br>
 
         <div class="container">
           <div class="row frow-1">
@@ -159,7 +162,10 @@
         </div>
 
         <div class="container-fluid">
+          <br>
           <h2 class="display-4 fp-heading text-center"><br>Best performing actors around</h2>
+          <hr class="featurette-divider">
+          <br>
           <div id="actorCarousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner row w-100 mx-auto">
               <div class="carousel-item col-md-3 active">
@@ -238,7 +244,10 @@
         </div>
         
         <div class="container-fluid dir-cont">
+          <br>
           <h2 class="display-4 fp-heading text-center"><br>Top directors!</h2>
+          <hr class="featurette-divider">
+          <br>
           <div id="directorCarousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner row w-100 mx-auto">
               <div class="carousel-item col-md-3 active">
