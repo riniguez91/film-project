@@ -48,48 +48,9 @@
 
     <!-- CONTAINER -->
     <div class="container marketing">
-        <!--
-        <br>
-        <h1>BEST SCIENCE FICTION ACTORS</h1>
-        <hr class="featurette-divider">
-
-         TOP ACTORS 
-        <div class="card-deck">
-            <div class="card">
-              <img class="card-img-top" src="https://cdn2.estamosrodando.com/biografias/16/7/harrison-ford-173751.jpg" alt="Harrison Ford">
-              <div class="card-body">
-                <h2 class="card-title">Harrison Ford</h2>
-                <p class="card-text">Harrison Ford was born on July 13, 1942 in Chicago, Illinois, to Dorothy (Nidelman), a radio actress, and Christopher Ford (born John William Ford), an actor turned advertising executive. His father was of Irish and German ancestry, while his maternal grandparents were Jewish emigrants from Minsk, Belarus. Harrison was a lackluster student at Maine Township High School East in Park Ridge Illinois (no athletic star, never above a C average). After dropping out of Ripon College in Wisconsin, where he did some acting and later summer stock, he signed a Hollywood contract with Columbia and later Universal.</p>
-    
-                <p><a class="btn btn-secondary" href="https://www.imdb.com/name/nm0000148/bio?ref_=nm_ov_bio_sm" role="button">More information &raquo;</a></p>
-                <footer class="blockquote-footer text-right">Someone famous in <cite title="Source Title">IMDB</cite></footer>
-              </div>
-            </div>
-            <div class="card">
-              <img class="card-img-top" src="https://static.nationalgeographic.es/files/styles/image_3200/public/Emma_Watson_Cannes_2013_2_0.jpg?w=1900&h=2165" alt="Emma Watson">
-              <div class="card-body">
-                <h2 class="card-title">Emma Watson</h2>
-                <p class="card-text">Emma Charlotte Duerre Watson was born in Paris, France, to English parents, Jacqueline Luesby and Chris Watson, both lawyers. She moved to Oxfordshire when she was five, where she attended the Dragon School. From the age of six, Emma knew that she wanted to be an actress and, for a number of years, she trained at the Oxford branch of Stagecoach Theatre Arts, a part-time theatre school where she studied singing, dancing and acting. By the age of ten, she had performed and taken the lead in various Stagecoach productions and school plays.</p>
-                <br>
-                <p><a class="btn btn-secondary" href="https://www.imdb.com/name/nm0914612/bio?ref_=nm_ov_bio_sm" role="button">More information &raquo;</a></p>
-                <footer class="blockquote-footer text-right">Someone famous in <cite title="Source Title">IMDB</cite></footer>
-              </div>
-            </div>
-            <div class="card">
-              <img class="card-img-top" src="https://es.web.img2.acsta.net/c_310_420/pictures/15/07/06/12/16/032047.jpg" alt="Sam Worthington">
-              <div class="card-body">
-                <h2 class="card-title">Sam Worthington</h2>
-                <p class="card-text">Samuel Henry John Worthington was born August 2, 1976 in Surrey, England. His parents, Jeanne (Martyn) and Ronald Worthington, a power plant employee, moved the family to Australia when he was six months old, and raised him and his sister Lucinda in Warnbro, a suburb of Perth, Western Australia. Worthington graduated from NIDA (Australia's National Institute of Dramatic Art) in 1998 at the age of 22. He received critical acclaim for his portrayal of "Arthur Wellesley" in his first professional role in the Belvoir Street Theatre production "Judas Kiss" (directed by Neil Armfield).</p>
-                
-                <p><a class="btn btn-secondary" href="https://www.imdb.com/name/nm0941777/bio?ref_=nm_ov_bio_sm" role="button">More information &raquo;</a></p>
-                <footer class="blockquote-footer text-right">Someone famous in <cite title="Source Title">IMDB</cite></footer>
-              </div>
-            </div>
-        </div> -->
-
         <br><br>  
         <h1 class="display-4 fp-heading text-center">In science fiction, we dream!</h1>
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="starwarseVIII">
         <!--1-->
         <div class="row featurette">
           <div class="col-md-7">
@@ -102,7 +63,7 @@
           </div>
         </div>
         
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="harrypottersorcer">
         <!--2-->
         <div class="row featurette">
           <div class="col-md-7 order-md-2 left-img-featurette">
@@ -115,7 +76,7 @@
           </div>
         </div>
   
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id ="avatar">
         <!--3-->
         <div class="row featurette">
           <div class="col-md-7">
@@ -128,7 +89,7 @@
           </div>
         </div>
 
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="readyplayer1">
         <!--4-->
         <div class="row featurette">
           <div class="col-md-7 order-md-2 left-img-featurette">
@@ -141,7 +102,7 @@
           </div>
         </div>
 
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="frindelwald">
         <!--5-->
         <div class="row featurette">
           <div class="col-md-7">
@@ -154,7 +115,7 @@
           </div>
         </div>
 
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="catchingfire">
         <!--6-->
         <div class="row featurette">
           <div class="col-md-7 order-md-2 left-img-featurette">
@@ -167,7 +128,7 @@
           </div>
         </div>
   
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="wonderwoman">
         <!--7-->
         <div class="row featurette">
           <div class="col-md-7">
@@ -180,7 +141,7 @@
           </div>
         </div>
 
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="wonderwoman1984">
         <!--8-->
         <div class="row featurette">
           <div class="col-md-7 order-md-2 left-img-featurette">
@@ -193,7 +154,7 @@
           </div>
         </div>
   
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="captainmarvel">
         <!--9-->
         <div class="row featurette">
           <div class="col-md-7">
@@ -206,7 +167,7 @@
           </div>
         </div>
 
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="rogueone">
         <!--10-->
         <div class="row featurette">
           <div class="col-md-7 order-md-2 left-img-featurette">
@@ -282,7 +243,8 @@
       </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="../../_scripts/heart-animation.js"></script>
 </body>

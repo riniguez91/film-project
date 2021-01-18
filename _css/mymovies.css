@@ -12,6 +12,9 @@
 .text-center{
   margin-top: 7vh;
 }
+body{
+  background-color: #f5f5f5;
+}
 .card{
   height: 640px;
 }

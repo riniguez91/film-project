@@ -48,48 +48,9 @@
 
     <!-- CONTAINER -->
     <div class="container marketing">
-        <!--
-        <br>
-        <h1>BEST COMEDY ACTORS</h1>
-        <hr class="featurette-divider">
-
-         TOP ACTORS 
-        <div class="card-deck">
-            <div class="card">
-              <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Premios_Goya_2018_-_Santiago_Segura_%28cropped%29.jpg/1200px-Premios_Goya_2018_-_Santiago_Segura_%28cropped%29.jpg" alt="Santiago Segura">
-              <div class="card-body">
-                <h2 class="card-title">Santiago Segura</h2>
-                <p class="card-text">Born in Madrid, Santiago Segura started his career by making his first short movie at the age of fourteen. After studying Arts in Madrid, he finally decided to become a filmmaker. His first short film Relatos de la medianoche (1989) was made with a budget of only 7.000 pts. (about 60 dollars).</p>
-                <br><br><br>
-                <p><a class="btn btn-secondary" href="https://www.imdb.com/name/nm0782213/bio?ref_=nm_ov_bio_sm" role="button">More information &raquo;</a></p>
-                <footer class="blockquote-footer text-right">Someone famous in <cite title="Source Title">IMDB</cite></footer>
-              </div>
-            </div>
-            <div class="card">
-              <img class="card-img-top" src="https://pyxis.nymag.com/v1/imgs/4aa/ff9/2572eb3661a726b262813d111f50ede91c-18-will-smith-chatroom-silo.rvertical.w330.png" alt="Will Smith">
-              <div class="card-body">
-                <h2 class="card-title">Will Smith</h2>
-                <p class="card-text">Willard Carroll "Will" Smith, Jr. (born September 25, 1968) is an American actor, comedian, producer, rapper, and songwriter. He has enjoyed success in television, film, and music. In April 2007, Newsweek called him "the most powerful actor in Hollywood". Smith has been nominated for five Golden Globe Awards, two Academy Awards, and has won four Grammy Awards.</p>
-                <br>
-                <p><a class="btn btn-secondary" href="https://www.imdb.com/name/nm0000226/bio?ref_=nm_ov_bio_sm" role="button">More information &raquo;</a></p>
-                <footer class="blockquote-footer text-right">Someone famous in <cite title="Source Title">IMDB</cite></footer>
-              </div>
-            </div>
-            <div class="card">
-              <img class="card-img-top" src="https://fotos00.laopiniondemalaga.es/2019/08/23/690x278/danirovira-t.jpg" alt="Dani Rovira">
-              <div class="card-body">
-                <h2 class="card-title">Dani Rovira</h2>
-                <p class="card-text">Dani Rovira was born on November 1, 1980 in Málaga, Málaga, Andalucía, Spain as Daniel Rovira de Rivas. He is an actor and writer, known for Ocho apellidos vascos (2014), Taxi a Gibraltar (2019) and Los Japón (2019).</p>
-                <br><br><br><br><br>
-                <p><a class="btn btn-secondary" href="https://en.wikipedia.org/wiki/Dani_Rovira" role="button">More information &raquo;</a></p>
-                <footer class="blockquote-footer text-right">Someone famous in <cite title="Source Title">IMDB</cite></footer>
-              </div>
-            </div>
-        </div> -->
-
         <br><br>  
         <h1 class="display-4 fp-heading text-center">Everyone is a comedian! </h1>
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="torrente2">
         <!--1-->
         <div class="row featurette">
           <div class="col-md-7">
@@ -102,7 +63,7 @@
           </div>
         </div>
   
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="spanishaffair">
         <!--2-->
         <div class="row featurette">
           <div class="col-md-7 order-md-2 left-img-featurette">
@@ -115,7 +76,7 @@
           </div>
         </div>
   
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="badboys4life">
         <!--3-->
         <div class="row featurette">
           <div class="col-md-7">
@@ -128,7 +89,7 @@
           </div>
         </div>
 
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="houseclock">
         <!--4-->
         <div class="row featurette">
           <div class="col-md-7 order-md-2 left-img-featurette">
@@ -141,7 +102,7 @@
           </div>
         </div>
 
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="charliesangels">
         <!--5-->
         <div class="row featurette">
           <div class="col-md-7">
@@ -154,7 +115,7 @@
           </div>
         </div>
 
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="peterrabbit">
         <!--6-->
         <div class="row featurette">
           <div class="col-md-7 order-md-2 left-img-featurette">
@@ -167,7 +128,7 @@
           </div>
         </div>
   
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="grinch">
         <!--7-->
         <div class="row featurette">
           <div class="col-md-7">
@@ -180,7 +141,7 @@
           </div>
         </div>
 
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="oceans8">
         <!--8-->
         <div class="row featurette">
           <div class="col-md-7 order-md-2 left-img-featurette">
@@ -193,7 +154,7 @@
           </div>
         </div>
   
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="thecroods">
         <!--9-->
         <div class="row featurette">
           <div class="col-md-7">
@@ -206,7 +167,7 @@
           </div>
         </div>
 
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="deadpool">
         <!--10-->
         <div class="row featurette">
           <div class="col-md-7 order-md-2 left-img-featurette">
@@ -280,7 +241,8 @@
       </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="../../_scripts/heart-animation.js"></script>
 </body>

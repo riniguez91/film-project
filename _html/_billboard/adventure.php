@@ -48,48 +48,9 @@
 
     <!-- CONTAINER -->
     <div class="container marketing">
-      <!-- 
-        <br>
-        <h1>BEST ADVENTURE ACTORS</h1>
-        <hr class="featurette-divider">
-
-        TOP ACTORS 
-        <div class="card-deck">
-            <div class="card">
-                <img class="card-img-top" src="https://cdn2.estamosrodando.com/biografias/16/7/harrison-ford-173751.jpg" alt="Harrison Ford">
-                <div class="card-body">
-                  <h2 class="card-title">Harrison Ford</h2>
-                  <p class="card-text">Harrison Ford was born on July 13, 1942 in Chicago, Illinois, to Dorothy (Nidelman), a radio actress, and Christopher Ford (born John William Ford), an actor turned advertising executive. His father was of Irish and German ancestry, while his maternal grandparents were Jewish emigrants from Minsk, Belarus. Harrison was a lackluster student at Maine Township High School East in Park Ridge Illinois (no athletic star, never above a C average). After dropping out of Ripon College in Wisconsin, where he did some acting and later summer stock, he signed a Hollywood contract with Columbia and later Universal.</p>
-                  <br><br><br>
-                  <p><a class="btn btn-secondary" href="https://www.imdb.com/name/nm0000148/bio?ref_=nm_ov_bio_sm" role="button">More information &raquo;</a></p>
-                  <footer class="blockquote-footer text-right">Someone famous in <cite title="Source Title">IMDB</cite></footer>
-                </div>
-            </div>
-            <div class="card">
-              <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Dylan_O%27Brien_by_Gage_Skidmore_2.jpg" alt="Dylan O'Brien">
-              <div class="card-body">
-                <h2 class="card-title">Dylan O'Brien</h2>
-                <p class="card-text">Dylan O'Brien was born in New York City, to Lisa Rhodes, a former actress who also ran an acting school, and Patrick B. O'Brien, a camera operator. His father is of Irish descent and his mother is of English, Spanish, and Italian ancestry. Dylan grew up in Springfield Township, Union County, New Jersey, before moving with his family to Hermosa Beach, California when he was 12 years old. Before getting bit by the acting bug, Dylan planned to attend film school and become a cinematographer, just like his father. But once he landed the role of Scott's (Tyler Posey) goofy sidekick Stiles on Teen Wolf (2011), he decided to put off school (he was initially under consideration for the role of Scott, but he was more interested in playing Stiles).</p>
-                
-                <p><a class="btn btn-secondary" href="https://www.imdb.com/name/nm3729721/?ref_=nv_sr_srsg_0" role="button">More information &raquo;</a></p>
-                <footer class="blockquote-footer text-right">Someone famous in <cite title="Source Title">IMDB</cite></footer>
-              </div>
-            </div>
-            <div class="card">
-              <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/4/46/Leonardo_Dicaprio_Cannes_2019.jpg" alt="Leonardo DiCaprio">
-              <div class="card-body">
-                <h2 class="card-title">Leonardo DiCaprio</h2>
-                <p class="card-text">Few actors in the world have had a career quite as diverse as Leonardo DiCaprio's. DiCaprio has gone from relatively humble beginnings, as a supporting cast member of the sitcom Los problemas crecen (1985) and low budget horror movies, such as Critters 3 (1991), to a major teenage heartthrob in the 1990s, as the hunky lead actor in movies such as Romeo y Julieta de William Shakespeare (1996) and Titanic (1997), to then become a leading man in Hollywood blockbusters, made by internationally renowned directors such as Martin Scorsese and Christopher Nolan.</p>
-                <br><br><br><br>
-                <p><a class="btn btn-secondary" href="https://www.imdb.com/name/nm0000138/bio?ref_=nm_ov_bio_sm" role="button">More information &raquo;</a></p>
-                <footer class="blockquote-footer text-right">Someone famous in <cite title="Source Title">IMDB</cite></footer>
-              </div>
-            </div>
-        </div> -->
-
         <br><br>  
         <h1 class="display-4 fp-heading text-center">Adventure is an attitude!</h1>
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="lastcrusade">
         <!--1-->
         <div class="row featurette">
           <div class="col-md-7">
@@ -102,7 +63,7 @@
           </div>
         </div>
   
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="themazerunner">
         <!--2-->
         <div class="row featurette">
           <div class="col-md-7 order-md-2 left-img-featurette">
@@ -115,7 +76,7 @@
           </div>
         </div>
   
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="therevenant">
         <!--3-->
         <div class="row featurette">
           <div class="col-md-7">
@@ -128,7 +89,7 @@
           </div>
         </div>
 
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="passengers">
         <!--4-->
         <div class="row featurette">
           <div class="col-md-7 order-md-2 left-img-featurette">
@@ -141,7 +102,7 @@
           </div>
         </div>
 
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="curseblackpearl">
         <!--5-->
         <div class="row featurette">
           <div class="col-md-7">
@@ -154,7 +115,7 @@
           </div>
         </div>
 
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="assasinscreed">
         <!--6-->
         <div class="row featurette">
           <div class="col-md-7 order-md-2 left-img-featurette">
@@ -167,7 +128,7 @@
           </div>
         </div>
   
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="warcraft">
         <!--7-->
         <div class="row featurette">
           <div class="col-md-7">
@@ -180,7 +141,7 @@
           </div>
         </div>
 
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="robinhood">
         <!--8-->
         <div class="row featurette">
           <div class="col-md-7 order-md-2 left-img-featurette">
@@ -193,7 +154,7 @@
           </div>
         </div>
   
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="lifeofpi">
         <!--9-->
         <div class="row featurette">
           <div class="col-md-7">
@@ -206,7 +167,7 @@
           </div>
         </div>
 
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="mulan">
         <!--10-->
         <div class="row featurette">
           <div class="col-md-7 order-md-2 left-img-featurette">
@@ -281,7 +242,8 @@
       </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="../../_scripts/heart-animation.js"></script>
 </body>

@@ -43,8 +43,8 @@
                   <h5 class="card-title">Dark Phoenix</h5>
                   <p class="card-text"><small class="text-muted">2h23m · PG-13 · Sci-Fi</small></p>
                   <div class="btn-group" role="group" aria-label="Botton group with stream sites">
-                    <a class="btn" href="https://www.netflix.com/cx/title/81044417" target="_blank"><img src="_images/_icons/netflix.png" height="35" alt="Netflix"></a>
-                    <a class="btn" href="#"><img src="_images/_icons/fox.svg" height="35" width="35" alt="Fox"></a>
+                    <a class="btn" href="https://www.netflix.com/es/" target="_blank"><img src="_images/_icons/netflix.png" height="35" alt="Netflix"></a>
+                    <a class="btn" href="https://www.foxtv.es/" target="_blank"><img src="_images/_icons/fox.svg" height="35" width="35" alt="Fox"></a>
                   </div>
                 </div>
               </div>
@@ -57,8 +57,8 @@
                   <h5 class="card-title">Godzilla</h5>
                   <p class="card-text"><small class="text-muted">1h47m · PG-13 · Comedy</small></p>
                   <div class="btn-group" role="group" aria-label="Botton group with stream sites">
-                    <a class="btn" href="#"><img src="_images/_icons/fox.svg" height="35" alt="Fox"></a>
-                    <a class="btn" href="#"><img src="_images/_icons/hbo.svg" height="35" width="35" alt="HBO"></a>
+                    <a class="btn" href="https://www.foxtv.es/" target="_blank"><img src="_images/_icons/fox.svg" height="35" alt="Fox"></a>
+                    <a class="btn" href="https://es.hboespana.com/" target="_blank"><img src="_images/_icons/hbo.svg" height="35" width="35" alt="HBO"></a>
                   </div>
                 </div>
               </div>
@@ -73,9 +73,9 @@
                     <small class="text-muted">1h32m · PG-13 · Action</small><br>
                   </p>
                   <div class="btn-group" role="group" aria-label="Botton group with stream sites">
-                    <a class="btn" href="#"><img src="_images/_icons/netflix.png" height="35" alt="Netflix"></a>
-                    <a class="btn" href="#"><img src="_images/_icons/fox.svg" height="35" width="35" alt="Fox"></a>
-                    <a class="btn" href="#"><img src="_images/_icons/hbo.svg" height="35" width="35" alt="HBO"></a>
+                    <a class="btn" href="https://www.netflix.com/es/" target="_blank"><img src="_images/_icons/netflix.png" height="35" alt="Netflix"></a>
+                    <a class="btn" href="https://www.foxtv.es/" target="_blank"><img src="_images/_icons/fox.svg" height="35" width="35" alt="Fox"></a>
+                    <a class="btn" href="https://es.hboespana.com/" target="_blank"><img src="_images/_icons/hbo.svg" height="35" width="35" alt="HBO"></a>
                   </div>
                 </div>
               </div>
@@ -88,8 +88,8 @@
                   <h5 class="card-title">Avengers Endgame</h5>
                   <p class="card-text"><small class="text-muted">3h10m · PG-13 · Action</small></p>
                   <div class="btn-group" role="group" aria-label="Botton group with stream sites">
-                    <a class="btn" href="#"><img src="_images/_icons/netflix.png" height="35" alt="Netflix"></a>
-                    <a class="btn" href="#"><img src="_images/_icons/hbo.svg" height="35" width="35" alt="HBO"></a>
+                    <a class="btn" href="https://www.netflix.com/es/" target="_blank"><img src="_images/_icons/netflix.png" height="35" alt="Netflix"></a>
+                    <a class="btn" href="https://es.hboespana.com/" target="_blank"><img src="_images/_icons/hbo.svg" height="35" width="35" alt="HBO"></a>
                   </div>
                 </div>
               </div>
@@ -108,9 +108,9 @@
                   <h5 class="card-title">Captain Marvel</h5>
                   <p class="card-text"><small class="text-muted">2h14m · PG-13 · Action</small></p>
                   <div class="btn-group" role="group" aria-label="Botton group with stream sites">
-                    <a class="btn" href="#"><img src="_images/_icons/netflix.png" height="35" alt="Netflix"></a>
-                    <a class="btn" href="#"><img src="_images/_icons/fox.svg" height="35" width="35" alt="Fox"></a>
-                    <a class="btn" href="#"><img src="_images/_icons/hbo.svg" height="35" width="35" alt="HBO"></a>
+                    <a class="btn" href="https://www.netflix.com/es/" target="_blank"><img src="_images/_icons/netflix.png" height="35" alt="Netflix"></a>
+                    <a class="btn" href="https://www.foxtv.es/" target="_blank"><img src="_images/_icons/fox.svg" height="35" width="35" alt="Fox"></a>
+                    <a class="btn" href="https://es.hboespana.com/" target="_blank"><img src="_images/_icons/hbo.svg" height="35" width="35" alt="HBO"></a>
                   </div>
                 </div>
               </div>
@@ -123,8 +123,8 @@
                   <h5 class="card-title">The Last Jedi</h5>
                   <p class="card-text"><small class="text-muted">2h50m · PG-13 · Sci-Fi</small></p>
                   <div class="btn-group" role="group" aria-label="Botton group with stream sites">
-                    <a class="btn" href="#"><img src="_images/_icons/netflix.png" height="35" alt="Netflix"></a>
-                    <a class="btn" href="#"><img src="_images/_icons/hbo.svg" height="35" width="35" alt="HBO"></a>
+                    <a class="btn" href="https://www.netflix.com/es/" target="_blank"><img src="_images/_icons/netflix.png" height="35" alt="Netflix"></a>
+                    <a class="btn" href="https://es.hboespana.com/" target="_blank"><img src="_images/_icons/hbo.svg" height="35" width="35" alt="HBO"></a>
                   </div>
                 </div>
               </div>
@@ -137,8 +137,8 @@
                   <h5 class="card-title">Justice League</h5>
                   <p class="card-text"><small class="text-muted">2h10m · PG-13 · Action</small></p>
                   <div class="btn-group" role="group" aria-label="Botton group with stream sites">
-                    <a class="btn" href="#"><img src="_images/_icons/fox.svg" height="35" alt="Fox"></a>
-                    <a class="btn" href="#"><img src="_images/_icons/hbo.svg" height="35" width="35" alt="HBO"></a>
+                    <a class="btn" href="https://www.foxtv.es/" target="_blank"><img src="_images/_icons/fox.svg" height="35" alt="Fox"></a>
+                    <a class="btn" href="https://es.hboespana.com/" target="_blank"><img src="_images/_icons/hbo.svg" height="35" width="35" alt="HBO"></a>
                   </div>
                 </div>
               </div>
@@ -151,8 +151,8 @@
                   <h5 class="card-title">Proud Mary</h5>
                   <p class="card-text"><small class="text-muted">1h54m · PG-13 · Comedy</small></p>
                   <div class="btn-group" role="group" aria-label="Botton group with stream sites">
-                    <a class="btn" href="#"><img src="_images/_icons/netflix.png" height="35" alt="Netflix"></a>
-                    <a class="btn" href="#"><img src="_images/_icons/fox.svg" height="35" width="35" alt="Fox"></a>
+                    <a class="btn" href="https://www.netflix.com/es/" target="_blank"><img src="_images/_icons/netflix.png" height="35" alt="Netflix"></a>
+                    <a class="btn" href="https://www.foxtv.es/" target="_blank"><img src="_images/_icons/fox.svg" height="35" width="35" alt="Fox"></a>
                   </div>
                 </div>
               </div>

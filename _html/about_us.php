@@ -35,24 +35,24 @@
               <img class="card-img-top" src="../_images/author-1.jpg" alt="author-1">
               <div class="card-body">
                 <h2 class="card-title">General Manager</h2>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
-                <footer class="blockquote-footer text-right">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                <p class="card-text">I’ve always approached things with hunger and just enough fear. Plenty of confidence, you know, but just enough fear to work extra hard, paralyzing fear does nothing.</p>
+                <footer class="blockquote-footer text-right">2020 <cite title="Source Title">Victor Hernandez</cite></footer>
               </div>
             </div>
             <div class="card">
               <img class="card-img-top" src="../_images/author-2.jpg" alt="author-2">
               <div class="card-body">
                 <h3 class="card-title">Executive Producer</h3>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
-                <footer class="blockquote-footer text-right">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                <p class="card-text">My thought process has always been, I’m excited to show you what my version of this story would look like. You’re going to be able to get a little condensed show. That took the pressure off getting the job</p>
+                <footer class="blockquote-footer text-right">2019 <cite title="Source Title">Ramon Iñiguez</cite></footer>
               </div>
             </div>
             <div class="card">
               <img class="card-img-top" src="../_images/author-3.jpg" alt="author-3">
               <div class="card-body">
                 <h4 class="card-title">Shop Owner</h4>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
-                <footer class="blockquote-footer text-right">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                <p class="card-text">For me, our job as artists is to serve the story, serve the director, and serve the fellow actors. And if you do that, by osmosis you’re serving yourself because you’ll get the best out of yourself</p>
+                <footer class="blockquote-footer text-right">2021 <cite title="Source Title">Harold</cite></footer>
               </div>
             </div>
         </div>
