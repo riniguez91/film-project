@@ -18,7 +18,7 @@
     ?>
 
     <div class="text-center">
-		<form class="form-signin" method="post" target="blank.html" autocomplete="off">
+		<form class="form-signin" method="post" autocomplete="off">
 				<img class="icon" src="../_images/navbaricon_fp.jpg" alt="Logo Movie Showcase" >
 				<h1 class="h3 mb-3 font-weight-normal">Movie Showcase Inc.</h1>
 
@@ -73,15 +73,15 @@
     // We need to check if the account with that email exists.
     if ($stmt = $con->prepare('SELECT user_id, password FROM users WHERE email = ?')) {
         if (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
-			echo "<p style='color:red'><strong>Not a valid Email!</strong><p> ";
-			exit(); #exit('Not valid Email!');
+            echo "<div class=\"alert alert-warning\" role=\"alert\"><strong>Not a valid Email!</strong></div>";
+            exit(); #exit('Not valid Email!');
         } 
         if (preg_match('/^[a-zA-Z0-9]+$/', $_POST['name']) == 0) {
-			echo "<p style='color:red'><strong>Not a valid Name!</strong><p> ";
-			exit(); #exit('Not valid Name!');
+            echo "<div class=\"alert alert-warning\" role=\"alert\"> <strong>Not a valid Name!</strong></div>";
+		    exit(); #exit('Not valid Name!');
         }
         if (strlen($_POST['password']) > 20 || strlen($_POST['password']) < 5) {
-			echo "<p style='color:red'><strong>Password must be between 5 <br> and 20 characters long!</strong><p> ";
+            echo "<div class=\"alert alert-warning\" role=\"alert\"><strong>Password must be between 5 <br> and 20 characters long!</strong></div>";
 			exit(); #exit('Password must be between 5 and 20 characters long!');
         }
 
